@@ -6,7 +6,7 @@ npm install
 
 webpack
 
-npm run start-webpack-servern
+npm run start-webpack-server
 
 ## Screenshots
 
