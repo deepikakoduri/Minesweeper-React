@@ -1,6 +1,5 @@
 import React from 'react';
 import * as cellStyle from './styles/styles.css';
-import RaisedButton from 'material-ui/RaisedButton';
 import { connect } from "react-redux";
 import {Restart, Init} from "../actions/PlayAction";
 
@@ -21,7 +20,7 @@ export default class Reset extends React.Component{
   render(){
       return(
         <div class="reset">
-            <RaisedButton label="RESTART" fullWidth={true} backgroundColor="#DBDBDB" onClick = {this.restart.bind(this)}></RaisedButton>
+            <div onClick = {this.restart.bind(this)}>RESET</div>
         </div>
       )
   }
