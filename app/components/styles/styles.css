@@ -1,6 +1,5 @@
 .cell{
-    float: left;
-    width: 42px;
+    width: 45px;
     height: 35px;
     margin-right: 5px;
     margin-top: 5px;
@@ -11,7 +10,7 @@
 }
 
 .row{
-  clear: both;
+  display: flex;
 }
 
 .masked{

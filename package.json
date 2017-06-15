@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
     "start-webpack-server": "webpack-dev-server --hot --inline --colors --progress --watch --port 8000"
   },
   "keywords": [
